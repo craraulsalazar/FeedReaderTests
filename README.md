@@ -6,7 +6,10 @@ Steps to run index.html
 ##App Functionality
 
 This application will be running some tests using jasmine JS. 
-just open index.html in your browser, under the FeedReaderTests folder
+
+go to
+http://craraulsalazar.github.io/FeedReaderTests/index.html
+
 
 ##Test #1 (name suite "RSS Feeds") with 3 expectations
 
@@ -22,10 +25,10 @@ just open index.html in your browser, under the FeedReaderTests folder
 
   2. Test that ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
 
-##Test #3 (suite name "Initial Entries") with 1 expectations
+##Test #3 (suite name "Initial Entries") with 1 expectation
 
   1. Test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container.
 
-##Test #4 (suite name "New Feed Selection") with 1 expectations
+##Test #4 (suite name "New Feed Selection") with 1 expectation
 
   1. Test that ensures when a new feed is loaded by the loadFeed function that the content actually changes.
